@@ -40,7 +40,7 @@ Final Structure: "Performer" \ Album Artist \ Year - Album \ Disc-Track# - Compo
 #### 3. Early Music
 Check Tag: **Genre = Antique or Medieval or Early Music**
 
-Different from classical genre, many tracks in medieval or early music genre miss their composers info, hence either anonymous or blank. 
+Different from classical genre, there are many tracks in medieval or renaissance period missing info of their composers, hence either anonymous or blank. 
 
 For an album dedicated only to one composer, set both display artist and album artist to the name of composer. Fill the following slots in artist field with performers (usually ensemble), original artist with the most important performer of your choice (usually ensemble).
 
