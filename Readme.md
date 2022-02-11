@@ -7,6 +7,7 @@ MP3Tag
 ## File Structure
 ### Root Directory
 Check Tag: **Genre = xxxx** 
+
 Check Tag: **Album Artists = Various Artists**
 
 For various artists, create a seperate folder exclusively for this kind of album, either studio album type or complition one, regardless of its genre. 
