@@ -34,12 +34,14 @@ For an album dedicated to multiple composers, set album artist to one desired pe
 Final Structure: "Multi-Composer" \ Album Artist \ Year - Album \ Disc-Track# - Composer - Title
 
 #### 3. Early Music
-Check Tag: **Genre = Antique or Medieval or Early Music"
+Check Tag: **Genre = Antique or Medieval or Early Musi**
 
 #### 4. Ethnic
-Check Tag: **Genre = Ethnic - xxxx"
+Check Tag: **Genre = Ethnic - xxx**
 
 #### 5. Others
 Check Tag: **Other Genres**
 
-Group the first letter of the album artists and create folders for each letter. 
+Group the first letter of the album artists and create subfolders for each letter (For Chinese and Japanese characters there are no available practical solutions yet). 
+
+Final Structure: Group Letter \ Album Artist \ Year - Album \ Disc-Track# - Title
