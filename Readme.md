@@ -15,6 +15,8 @@ For genre, divide into four subgroups: classical, early music, ethnic & others.
 
 ### Sub-Directory
 
+Note: The address following "Final Structure" is composed of fixed strings (inside ""), special symbols and musicbee tags (reserved). 
+
 #### 1. Various Artists
 
 Check Tag: **Album Artist = Various Artists**
