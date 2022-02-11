@@ -40,7 +40,7 @@ Different from classical genre, many tracks in medieval or early music genre mis
 
 For an album dedicated only to one composer, set both display artist and album artist to the name of composer. Fill the following slots in artist field with performers (usually ensemble), original artist with the most important performer of your choice (usually ensemble).
 
-For an album dedicated to multiple composers, set both display artist and album artist to the name of the chosen performer. Fill the following slots in the artist field with composers and other performers, and original artist same as album artist
+For an album dedicated to multiple composers, set both display artist and album artist to the name of the chosen performer. Fill the following slots in the artist field with composers and other performers, and original artist same as album artist. 
 
 Final Structure for both cases:  Original Artist \ Year - Album \ Disc-Track# - Title
 
