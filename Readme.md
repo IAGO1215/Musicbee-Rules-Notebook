@@ -16,7 +16,7 @@ For genre, divide into four subgroups: classical, early music, ethnic & others.
 
 ### Sub-Directory
 
-Note: The address following "Final Structure" is composed of fixed strings (inside ""), special symbols and musicbee tags (reserved). 
+Note: The address following "Final Structure" is composed of fixed strings (inside ""), special symbols, musicbee reserved tags and musicbee functions (following $). 
 
 #### 1. Various Artists
 
@@ -56,4 +56,4 @@ Check Tag: **Other Genres**
 
 Group the first letter of the album artists and create subfolders for each letter (For Chinese and Japanese characters there are no available practical solutions yet). 
 
-Final Structure: Group Letter \ Album Artist \ Year - Album \ Disc-Track# - Title
+Final Structure: $Group \ Album Artist \ Year - Album \ Disc-Track# - Title
