@@ -41,3 +41,11 @@ Search: (.+)\s
 Replace: $1
 
 Example: Cantiga 384  → Cantiga 384
+
+## 6-Seperate two words with space on each side of symbol /
+
+Search: (.+?)/(.+?)
+
+Replace: $1 / $2
+
+Example: Cantiga/384 → Cantiga / 384
