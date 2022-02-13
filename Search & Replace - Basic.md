@@ -33,3 +33,11 @@ Search: (\(.+\))
 Replace: 
 
 Example: Cantiga 384 (Alfonso) → Cantiga 384
+
+## 5-Trim the space at the end of the title
+
+Search: (.+)\s
+
+Replace: $1
+
+Example: Cantiga 384  → Cantiga 384
