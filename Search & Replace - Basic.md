@@ -49,3 +49,13 @@ Search: (.+?)/(.+?)
 Replace: $1 / $2
 
 Example: Cantiga/384 → Cantiga / 384
+
+## 7-Only keep the content before first dot .
+
+Search: (.+?)\.(.*)
+
+Replace: $1
+
+Example: Cantiga 384. A que por muy. Flor → Cantiga 384
+
+Note: .+? is lazy ; .+ is greedy
