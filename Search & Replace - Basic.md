@@ -24,6 +24,6 @@ Replace: $1
 
 Example: Cantiga '384' → Cantiga 384
 
-Note: For moving the content inside to another tag in music, check advanced page. 
+Note: For moving the content inside to another tag in musicbee, check advanced page. 
 
 ## 4-
