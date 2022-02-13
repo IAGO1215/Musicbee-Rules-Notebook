@@ -8,7 +8,7 @@ Replace：$1 -
 
 Example：Cantiga – 384 Flor des Flores → Cantiga 384 – Flor des Flores
 
-## 2-Add annotation text inside the parenthesis at the end of the title
+## 2-Add annotation text with the parenthesis at the end of the title
 
 Search: (.+)
 
