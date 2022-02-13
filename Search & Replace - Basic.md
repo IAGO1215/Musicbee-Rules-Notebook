@@ -28,7 +28,7 @@ Note: For moving the content inside to another tag in musicbee, check advanced p
 
 ## 4-Remove parenthesis and its content
 
-Search: (\(.+\))
+Search: (\\(.+\\))
 
 Replace: 
 
