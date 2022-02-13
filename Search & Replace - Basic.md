@@ -16,12 +16,14 @@ Replace: $1 (Live)
 
 Example: Cantiga → Cantiga (Live)
 
-## 3-Remove unnecessary quotation marks
+## 3-Remove unnecessary quotation marks but keep the content inside
 
 Search: '(.+)' or "(.+)"
 
 Replace: $1
 
 Example: Cantiga '384' → Cantiga 384
+
+Note: For moving the content inside to another tag in music, check advanced page. 
 
 ## 4-
