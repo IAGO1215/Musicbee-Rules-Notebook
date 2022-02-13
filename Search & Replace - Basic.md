@@ -52,7 +52,7 @@ Example: Cantiga/384 → Cantiga / 384
 
 ## 7-Only keep the content before first dot .
 
-Search: (.+?)\\.(.*)
+Search: (.+?)//.(.*)
 
 Replace: $1
 
