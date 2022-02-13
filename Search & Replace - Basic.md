@@ -26,4 +26,10 @@ Example: Cantiga '384' → Cantiga 384
 
 Note: For moving the content inside to another tag in musicbee, check advanced page. 
 
-## 4-
+## 4-Remove parenthesis and its content
+
+Search: (\(.+\))
+
+Replace: 
+
+Example: Cantiga 384 (Alfonso) → Cantiga 384
