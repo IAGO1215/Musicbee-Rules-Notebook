@@ -54,6 +54,7 @@ Traditional: Traditional-Pop
 Traditional: Vocal
 World: African
 World: Arabic
+World: Armenian
 World: Bulgarian
 World: Celtic
 World: Chinese
@@ -64,6 +65,7 @@ World: Indian
 World: Isreali
 World: Japanese
 World: Latin
+World: Mediterranean
 World: Native American
 World: New Age
 World: Persian
