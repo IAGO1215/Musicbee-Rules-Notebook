@@ -1,71 +1,71 @@
+Classical: 20th Century
 Classical: Baroque
 Classical: Classical
 Classical: Opera
 Classical: Vocal Work
-Classical: 20th Century
-Early Music: Antique
-Early Music: Medieval
-Early Music: Renaissance
-Early Music: Religious
-Pop: Pop
-Pop: Rock
-Pop: R&B/Soul
-Pop: Alternative
-Pop: Disco
-Pop: Ballad
-Pop: C-Pop
-Pop: K-Pop
-Pop: J-Pop
-Pop: International Pop
-Pop: Hip-Hop
-Pop: Folk
-Pop: Latin Pop
-Metal: Gothic
-Metal: Folk
-Metal: Black
-Metal: Symphony
-Metal: Doom
-Metal: Death
-Metal: Progressive
-Traditional: Jazz
-Traditional: Holiday
-Traditional: Traditional-Pop
-Traditional: Vocal
-Traditional: Country
-Dark Music: Neo-Folk
-Dark Music: Neo-Medieval
-Dark Music: Darkwave
-Dark Music: Neo-Classical
+Contemporary: Contemporary Classical
+Contemporary: Minimal
 Dark Music: Dark Ambient
+Dark Music: Darkwave
 Dark Music: Dungeon-Synth
 Dark Music: Martial Industrial
+Dark Music: Neo-Classical
+Dark Music: Neo-Folk
+Dark Music: Neo-Medieval
 Dark Music: Nordic Folk
+Early Music: Antique
+Early Music: Medieval
+Early Music: Religious
+Early Music: Renaissance
+Electronic: Dance
 Electronic: Electronic
 Electronic: Ethereal
 Electronic: Post-Rock
-Electronic: Dance
-Contemporary: Contemporary Classical
-Contemporary: Minimal
-World: New Age
-World: World Fusion
-World: Arabic
-World: Persian
-World: Isreali
-World: Celtic
-World: Chinese
-World: Japanese
-World: Bulgarian
-World: Greek
-World: Russian
-World: Egypty
-World: Latin
-World: Sephardic
-World: Indian
-World: Native American
-World: African
-Soundtrack: Film
+Metal: Black
+Metal: Death
+Metal: Doom
+Metal: Folk
+Metal: Gothic
+Metal: Progressive
+Metal: Symphony
+Pop: Alternative
+Pop: Ballad
+Pop: C-Pop
+Pop: Disco
+Pop: Folk
+Pop: Hip-Hop
+Pop: International Pop
+Pop: J-Pop
+Pop: K-Pop
+Pop: Latin Pop
+Pop: Pop
+Pop: R&B/Soul
+Pop: Rock
 Soundtrack: Anime
+Soundtrack: Film
 Soundtrack: Game
+Soundtrack: OST
 Soundtrack: Series
 Soundtrack: Theater
-Soundtrack: OST
+Traditional: Country
+Traditional: Holiday
+Traditional: Jazz
+Traditional: Traditional-Pop
+Traditional: Vocal
+World: African
+World: Arabic
+World: Bulgarian
+World: Celtic
+World: Chinese
+World: Egypty
+World: Greek
+World: Indian
+World: Isreali
+World: Japanese
+World: Latin
+World: Native American
+World: New Age
+World: Persian
+World: Russian
+World: Sephardic
+World: World Fusion
