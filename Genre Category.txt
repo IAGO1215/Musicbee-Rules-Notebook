@@ -55,6 +55,7 @@ Traditional: Vocal
 World: African
 World: Arabic
 World: Armenian
+World: Azerbaijan
 World: Bulgarian
 World: Celtic
 World: Chinese
