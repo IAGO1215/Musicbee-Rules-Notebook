@@ -2,7 +2,6 @@ Classical: Baroque
 Classical: Classical
 Classical: Opera
 Classical: Vocal Work
-Classical: Theater
 Classical: 20th Century
 Early Music: Antique
 Early Music: Medieval
@@ -63,3 +62,9 @@ World: Sephardic
 World: Indian
 World: Native American
 World: African
+Soundtrack: Film
+Soundtrack: Anime
+Soundtrack: Game
+Soundtrack: Series
+Soundtrack: Theater
+Soundtrack: OST
