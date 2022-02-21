@@ -19,6 +19,7 @@ Pop: J-Pop
 Pop: International Pop
 Pop: Hip-Hop
 Pop: Folk
+Pop: Latin Pop
 Metal: Gothic
 Metal: Folk
 Metal: Black
