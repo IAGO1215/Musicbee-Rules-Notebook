@@ -46,7 +46,8 @@ Soundtrack: Film
 Soundtrack: Game
 Soundtrack: OST
 Soundtrack: Series
-Soundtrack: Theater
+Soundtrack: Stage
+Traditional: Chanson
 Traditional: Country
 Traditional: Holiday
 Traditional: Jazz
