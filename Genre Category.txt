@@ -1,9 +1,10 @@
 Classical: 20th Century
 Classical: Baroque
 Classical: Classical
-Classical: Opera
-Classical: Vocal Work
+Classical: 
+Classical: Romantical
 Contemporary: Contemporary Classical
+Contemporary: Easy Listening
 Contemporary: Minimal
 Dark Music: Dark Ambient
 Dark Music: Darkwave
@@ -11,11 +12,10 @@ Dark Music: Dungeon-Synth
 Dark Music: Martial Industrial
 Dark Music: Neo-Classical
 Dark Music: Neo-Folk
-Dark Music: Neo-Medieval
-Dark Music: Nordic Folk
+Dark Music: Pagan Folk
+Dark Music: Ritual Folk
 Early Music: Antique
 Early Music: Medieval
-Early Music: Religious
 Early Music: Renaissance
 Electronic: Dance
 Electronic: Electronic
