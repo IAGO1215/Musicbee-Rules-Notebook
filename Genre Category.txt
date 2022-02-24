@@ -1,22 +1,25 @@
 Classical: 20th Century
 Classical: Baroque
 Classical: Classical
-Classical: 
+Classical: Impressionistic
 Classical: Romantical
-Contemporary: Contemporary Classical
-Contemporary: Easy Listening
-Contemporary: Minimal
+Contemporary Classical: Contemporary Classical
+Contemporary Classical: Easy Listening
+Contemporary Classical: Minimal
 Dark Music: Dark Ambient
 Dark Music: Darkwave
 Dark Music: Dungeon-Synth
+Dark Music: Gothic Rock
 Dark Music: Martial Industrial
 Dark Music: Neo-Classical
 Dark Music: Neo-Folk
 Dark Music: Pagan Folk
 Dark Music: Ritual Folk
+Early Music: Andalusia
 Early Music: Antique
 Early Music: Medieval
 Early Music: Renaissance
+Early Music: Religious
 Electronic: Dance
 Electronic: Electronic
 Electronic: Ethereal
@@ -41,6 +44,7 @@ Pop: Latin Pop
 Pop: Pop
 Pop: R&B/Soul
 Pop: Rock
+Pop: Soft-Rock
 Soundtrack: Anime
 Soundtrack: Film
 Soundtrack: Game
