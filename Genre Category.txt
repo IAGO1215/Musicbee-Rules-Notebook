@@ -19,7 +19,6 @@ Early Music: Andalusia
 Early Music: Antique
 Early Music: Medieval
 Early Music: Renaissance
-Early Music: Religious
 Electronic: Dance
 Electronic: Electronic
 Electronic: Ethereal
