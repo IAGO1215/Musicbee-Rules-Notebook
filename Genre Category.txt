@@ -35,6 +35,7 @@ Pop: Ballad
 Pop: C-Pop
 Pop: Disco
 Pop: Folk
+Pop: Hard-Rock
 Pop: Hip-Hop
 Pop: International Pop
 Pop: J-Pop
