@@ -5,7 +5,7 @@ $If<Album Artist>="Various Artists"
 ## Album Artist = Various Artists
 如果是群星专辑，则文件夹结构如下
 ```
-<Album Artist>\<Year (yyyy)> - <Genre> - $Left(<Album>,70)\
+_Various Artists\<Year (yyyy)> - <Genre> - $Left(<Album>,70)\
 ```
 #### Various Artists文件命名规则
 
