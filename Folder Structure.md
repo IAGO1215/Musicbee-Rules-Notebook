@@ -68,9 +68,9 @@ $isNull<Composer>
 ```
 <Track#> - $Left(<Title>,50)
 ```
-如果有作曲家信息，则文件名如下
+如果有作曲家信息，则文件名如下（作曲家信息只保留名字部分，名字后括号内的生卒日期无需展示）
 ```
-<Track#> - <Composer> - $Left(<Title>,50)
+<Track#> - $Trim($Rsplit($Split(<Composer>,"(",1)," ",1)) - $Left(<Title>,50)
 ```
 
 如果为多盘专辑，则文件名需要显示盘号；此外，需要判断是否有作曲家信息，如果有，需要在文件名注明，因此需要进一步嵌套判断语句
@@ -83,7 +83,7 @@ $isNull<Composer>
 ```
 如果有作曲家信息，则文件名如下
 ```
-<Disc-Track#> - <Composer> - $Left(<Title>,50)
+<Disc-Track#> - $Trim($Rsplit($Split(<Composer>,"(",1)," ",1)) - $Left(<Title>,50)
 ```
 
 ### 原声带类
@@ -124,7 +124,7 @@ $If<Artist>=<Album Artist>
 ```
 如果曲目艺术家与专辑艺术家不同，则文件名如下
 ```
-<Track#> - <Artist> - $Left(<Title>,50)
+<Disc-Track#> - <Artist> - $Left(<Title>,50)
 ```
 
 ### 其他类（流行、民谣、金属、黑暗、传统、世界、民乐）
@@ -161,4 +161,4 @@ $If<Artist>=<Album Artist>
 ```
 如果曲目艺术家与专辑艺术家不同，则文件名如下
 ```
-<Track#> - <Artist> - $Left(<Title>,50)
+<Disc-Track#> - <Artist> - $Left(<Title>,50)
