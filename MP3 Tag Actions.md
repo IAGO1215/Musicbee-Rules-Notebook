@@ -1,4 +1,4 @@
-## Lowercase the letter before ' and keep the letter after ' uppercase
+## Lowercase the letter before ' and keep the letter after ' uppercase, except the initial letter of the title 
 ```
 Field: TITLE
 Rex: \s(.?)'(.?)
