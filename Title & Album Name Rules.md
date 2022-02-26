@@ -34,3 +34,16 @@
 
 对于with而言，通常会在Artist (Display) 中注明所有艺术家，而不在标题中注明；如果被with的艺术家在资料库里没有个人专辑，那么可以将其在标题中标注为feat的艺术家，而Artist (Display) 只保留主要艺术家
 
+#### 4 特殊版本
+
+如Alternative Version、Unplugged Version、Instrumental、Radio Cut、Deezer Session
+
+Album Version不允许出现在专辑里，因此对应的单曲版本需要注明Single Version
+
+Special Track、Bonus Track等加曲信息不允许出现在标题里，而是在Grouping的tag里单独注明，信息尽可能准确齐全（如Japanese Bonus Track)
+
+#### 5
+
+
+
+#### 6
