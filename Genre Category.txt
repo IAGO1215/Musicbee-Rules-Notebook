@@ -3,13 +3,15 @@ Classical: Baroque
 Classical: Classical
 Classical: Impressionistic
 Classical: Romantical
+Classical: Theater
 Contemporary Classical: Contemporary Classical
 Contemporary Classical: Easy Listening
 Contemporary Classical: Minimal
 Dark Music: Dark Ambient
 Dark Music: Darkwave
 Dark Music: Dungeon-Synth
-Dark Music: Gothic Rock
+Dark Music: Folk-Rock
+Dark Music: Gothic-Rock
 Dark Music: Martial Industrial
 Dark Music: Neo-Classical
 Dark Music: Neo-Folk
@@ -23,28 +25,28 @@ Electronic: Dance
 Electronic: Electronic
 Electronic: Ethereal
 Electronic: Post-Rock
-Metal: Black
-Metal: Death
-Metal: Doom
-Metal: Folk
-Metal: Gothic
-Metal: Progressive
-Metal: Symphony
+Electronic: Punk
+Metal: Black Metal
+Metal: Death Metal
+Metal: Doom Metal
+Metal: Folk Metal
+Metal: Gothic Metal
+Metal: Progressive Metal
+Metal: Symphony Metal
 Pop: Alternative
 Pop: Ballad
 Pop: C-Pop
 Pop: Disco
-Pop: Folk
 Pop: Hard-Rock
 Pop: Hip-Hop
+Pop: Indie
 Pop: International Pop
 Pop: J-Pop
 Pop: K-Pop
 Pop: Latin Pop
 Pop: Pop
+Pop: Pop-Rock
 Pop: R&B/Soul
-Pop: Rock
-Pop: Soft-Rock
 Soundtrack: Anime
 Soundtrack: Film
 Soundtrack: Game
@@ -53,6 +55,7 @@ Soundtrack: Series
 Soundtrack: Stage
 Traditional: Chanson
 Traditional: Country
+Traditional: Gospel
 Traditional: Holiday
 Traditional: Jazz
 Traditional: Traditional-Pop
