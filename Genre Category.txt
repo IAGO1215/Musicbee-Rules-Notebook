@@ -8,6 +8,7 @@ Contemporary Classical: Acoustic
 Contemporary Classical: Contemporary Classical
 Contemporary Classical: Easy Listening
 Contemporary Classical: Minimal
+Contemporary Classical: Vocal
 Dark Music: Dark Ambient
 Dark Music: Darkwave
 Dark Music: Dungeon-Synth
@@ -34,17 +35,17 @@ Metal: Folk-Metal
 Metal: Gothic-Metal
 Metal: Progressive-Metal
 Metal: Symphony-Metal
-Pop: Alternative
+Pop: Alternative-Pop
 Pop: Ballad
 Pop: C-Pop
 Pop: Disco
 Pop: Hard-Rock
 Pop: Hip-Hop
 Pop: Indie
-Pop: International Pop
+Pop: International-Pop
 Pop: J-Pop
 Pop: K-Pop
-Pop: Latin Pop
+Pop: Latin-Pop
 Pop: Pop
 Pop: Pop-Rock
 Pop: R&B/Soul
@@ -54,13 +55,11 @@ Soundtrack: Game
 Soundtrack: OST
 Soundtrack: Series
 Soundtrack: Stage
-Traditional: Chanson
 Traditional: Country
 Traditional: Gospel
 Traditional: Holiday
 Traditional: Jazz
 Traditional: Traditional-Pop
-Traditional: Vocal
 World: African
 World: Arabic
 World: Armenian
