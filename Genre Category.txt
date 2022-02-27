@@ -3,8 +3,6 @@ Classical: Baroque
 Classical: Classical
 Classical: Impressionistic
 Classical: Romantical
-Classical: Theater
-Contemporary Classical: Acoustic
 Contemporary Classical: Contemporary Classical
 Contemporary Classical: Easy Listening
 Contemporary Classical: Minimal
@@ -60,6 +58,7 @@ Traditional: Gospel
 Traditional: Holiday
 Traditional: Jazz
 Traditional: Traditional-Pop
+World: Acoustic
 World: African
 World: Arabic
 World: Armenian
