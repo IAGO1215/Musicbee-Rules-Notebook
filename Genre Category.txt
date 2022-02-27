@@ -4,6 +4,7 @@ Classical: Classical
 Classical: Impressionistic
 Classical: Romantical
 Classical: Theater
+Contemporary Classical: Acoustic
 Contemporary Classical: Contemporary Classical
 Contemporary Classical: Easy Listening
 Contemporary Classical: Minimal
@@ -26,13 +27,13 @@ Electronic: Electronic
 Electronic: Ethereal
 Electronic: Post-Rock
 Electronic: Punk
-Metal: Black Metal
-Metal: Death Metal
-Metal: Doom Metal
-Metal: Folk Metal
-Metal: Gothic Metal
-Metal: Progressive Metal
-Metal: Symphony Metal
+Metal: Black-Metal
+Metal: Death-Metal
+Metal: Doom-Metal
+Metal: Folk-Metal
+Metal: Gothic-Metal
+Metal: Progressive-Metal
+Metal: Symphony-Metal
 Pop: Alternative
 Pop: Ballad
 Pop: C-Pop
