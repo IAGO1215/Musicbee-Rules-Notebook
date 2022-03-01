@@ -59,3 +59,11 @@ Replace: $1
 Example: Cantiga 384. A que por muy. Flor → Cantiga 384
 
 Note: .+? is lazy ; .+ is greedy
+
+## 8-Classical Music Title Format one - Waltz
+
+Search: Waltz\s(.+)\s(in\s[A-Z]\s(Flat|Sharp)\s(Major|Minor))(.*)
+
+Replace: Waltz $2, $1$5
+
+Exmple: Waltz Op. 64: No.1 in A Minor - Dance -> Waltz in A Minor, Op. 64: No.1 - Dance
