@@ -1,10 +1,10 @@
 ### 基础Title格式规范
 
-1. 歌曲原名以及补充信息 → 2. 翻译或拼音 → 3. feat. → 4. 特殊版本注明 → 5. Remix → 6. 现场信息
+1. 歌曲原名以及补充信息 → 2. 翻译或罗马拼音 → 3. feat. → 4. 特殊版本注明 → 5. Remix → 6. 现场信息
 
 #### 1.1 歌曲原名
 
-尽可能使用艺术家的本国语言，如果找不到准确信息，则使用英语
+尽可能使用艺术家的本国语言，如果找不到准确信息，则使用英语或对应的罗马拼音
 
 #### 1.2 补充信息
 
@@ -12,17 +12,17 @@
 
 | 补充信息  | 命名方式 |
 | ------------- | ------------- |
-| 原曲年代  | 通常会将该信息存放在Comment的tag里，**标题后括号内**  |
+| 原曲年代  | 通常会将该信息存放在<Comment>里，**标题后括号内**  |
 | 原标题自带的补充信息  | **标题后括号内**  |
-| 原曲来源  | 可以是地区、原歌手（非作曲家）、民族等等，但通常会将该信息存放在Comment的tag里；**标题后括号内**  |
+| 原曲来源  | 可以是地区、原歌手（非作曲家）、民族等等，但通常会将该信息存放在<Comment>里；**标题后括号内**  |
 | 歌曲类型  | 尤其是对于早期音乐，通常会注明Virelai、Motet等曲式；**标题后括号内**  |
-| 作曲家  | 通常只需要在Composer的tag里注明，但部分合集专辑可能需要单独注明；**标题前引号前**，必须采用缩写格式（见“作曲家缩写.txt”）  |
+| 作曲家  | 通常只需要在<Composer>里注明，但部分合集专辑可能需要单独注明；**标题前引号前**，必须采用缩写格式（见“作曲家缩写.txt”）  |
 <!-- | Content Cell  | Content Cell  | -->
 
-#### 2.1 是否注明对应的英文翻译罗马拼音
+#### 2.1 是否注明对应的英文翻译
 
-除韩文歌外，所有歌曲都不需要在标题里注明英文翻译，而是在Comment的tag里注明
-英文翻译要紧跟在标题后面，如너 아님 안돼 (Gotta Be You) [feat. XXX] (Unplugged Version) [Rearranged] (Live)
+除韩文歌外，所有歌曲都不需要在标题里注明英文翻译，而是在<Comment>里注明
+韩语歌的英文翻译要紧跟在标题后面，如너 아님 안돼 (Gotta Be You) [feat. XXX] (Unplugged Version) [Rearranged] (Live)
 
 #### 2.2 是否注明对应的罗马拼音
 
@@ -30,20 +30,25 @@
 
 #### 3 feat.
 
-所有feat的艺术家必须以guest artist形式出现在Artists的tag里，但如果该艺术家在资料库里没有个人专辑，则无需在Artists的tag里注明
+所有feat的艺术家必须以guest artist形式出现在<Artists>里；但如果该艺术家在资料库里没有个人专辑，则不允许在<Artists>里注明，仅在标题里注明即可
 
-对于with而言，通常会在Artist (Display) 中注明所有艺术家，而不在标题中注明；如果被with的艺术家在资料库里没有个人专辑，那么可以将其在标题中标注为feat的艺术家，而Artist (Display) 只保留主要艺术家
+对于with形式的合作而言，通常会在<Artist (Display)> 中注明所有艺术家，而不在<Title>注明；如果被with的艺术家在资料库里没有个人专辑，那么可以暂时将其在<Title>标注为feat的艺术家，而<Artist (Display) >只保留主要艺术家
 
 #### 4 特殊版本
 
 如Alternative Version、Unplugged Version、Instrumental、Radio Cut、Deezer Session
 
-Album Version不允许出现在专辑里，因此对应的单曲版本需要注明Single Version
+Album Version不允许出现在录音室全长专辑里的任一单曲<Title>里，因此对应的单曲版本需要注明Single Version或Radio Cut/Edit
 
-Special Track、Bonus Track等加曲信息不允许出现在标题里，而是在Grouping的tag里单独注明，信息尽可能准确齐全（如Japanese Bonus Track)
+Special Track、Bonus Track等加曲信息不允许出现在<Title>里，而是在<Grouping>里单独注明，信息尽可能准确齐全（如Japanese Bonus Track)
 
 #### 5
 
-
+Remix约定俗成的命名规范为 XXX Remix；当Remix没有标注Remixer的时候，这时候Remix信息视作特殊版本信息
 
 #### 6
+
+现场信息格式1：Live at 具体地点（如柏林大教堂）或者活动名称（如异教民谣节庆）或者巡演名称（如我Play世界巡回）, 城市或国家（仅当不知道城市时使用国家）或年份（仅当不知道国家时使用年份）, 日期（格式为March 13th 1996）
+现场信息格式2：Live at 具体地点（如柏林大教堂）或者活动名称（如异教民谣节庆）或者巡演名称（如我Play世界巡回），年份或日期
+现场信息格式3：Live in 城市或国家（仅当不知道城市时使用国家）或年份（仅当不知道国家时使用年份），年份或日期
+现场信息格式4：Live in 年份
