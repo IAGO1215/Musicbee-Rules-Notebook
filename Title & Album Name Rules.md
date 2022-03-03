@@ -42,11 +42,11 @@ Album Version不允许出现在录音室全长专辑里的任一单曲<Title>里
 
 Special Track、Bonus Track等加曲信息不允许出现在<Title>里，而是在<Grouping>里单独注明，信息尽可能准确齐全（如Japanese Bonus Track)
 
-#### 5
+#### 5 Remix
 
 Remix约定俗成的命名规范为 XXX Remix；当Remix没有标注Remixer的时候，这时候Remix信息视作特殊版本信息
 
-#### 6
+#### 6 现场信息（注意逗号）
 
 现场信息格式1：Live at 具体地点（如柏林大教堂）或者活动名称（如异教民谣节庆）或者巡演名称（如我Play世界巡回）, 城市或国家（仅当不知道城市时使用国家）或年份（仅当不知道国家时使用年份）, 日期（格式为March 13th 1996）
   
