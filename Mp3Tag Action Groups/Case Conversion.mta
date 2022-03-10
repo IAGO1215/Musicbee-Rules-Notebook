@@ -1,0 +1,97 @@
+﻿[#0]
+T=1
+F=TITLE
+1=1
+2=(-,./'")[];:?!
+
+[#1]
+T=2
+F=TITLE
+1=\u2019
+2='
+3=0|0
+
+[#2]
+T=2
+F=TITLE
+1=Feat.
+2=feat.
+3=0|0
+
+[#3]
+T=4
+F=TITLE
+1=(\\w)\\s(.?)'(.?)
+2=$1 $lower($2)'$upper($3)
+3=1
+
+[#4]
+T=4
+F=TITLE
+1=(\\w)\\s(Dell|Degl|Dall|Dagl|)'(.?)
+2=$1 $lower($2)'$upper($3)
+3=0
+
+[#5]
+T=4
+F=TITLE
+1=(\\w)\\s(Las|Los)\\s
+2=$1 $lower($2) 
+3=1
+
+[#6]
+T=4
+F=TITLE
+1=(\\w)\\s(Las|Los)\\s
+2=$1 $lower($2) 
+3=1
+
+[#7]
+T=4
+F=TITLE
+1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au)\\s
+2=$1 $lower($2) 
+3=1
+
+[#8]
+T=4
+F=TITLE
+1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au)\\s
+2=$1 $lower($2) 
+3=1
+
+[#9]
+T=4
+F=TITLE
+1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|E|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo)\\s
+2=$1 $lower($2) 
+3=1
+
+[#10]
+T=4
+F=TITLE
+1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|E|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo)\\s
+2=$1 $lower($2) 
+3=1
+
+[#11]
+T=4
+F=TITLE
+1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With)\\s
+2=$1 $lower($2) 
+3=1
+
+[#12]
+T=4
+F=TITLE
+1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With)\\s
+2=$1 $lower($2) 
+3=1
+
+[#13]
+T=4
+F=TITLE
+1=(\\w)\\s(And)\\s
+2=$1 $lower($2) 
+3=1
+
