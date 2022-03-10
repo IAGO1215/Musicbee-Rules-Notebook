@@ -1,6 +1,8 @@
 Classical: 20th Century
 Classical: Baroque
+Classical: Chamber
 Classical: Classical
+Classical: Concerto
 Classical: Impressionistic
 Classical: Opera
 Classical: Recital
@@ -26,6 +28,7 @@ Early Music: Andalusia
 Early Music: Antique
 Early Music: Medieval
 Early Music: Renaissance
+Electronic: Coldwave
 Electronic: Dance
 Electronic: Electronic
 Electronic: Ethereal
