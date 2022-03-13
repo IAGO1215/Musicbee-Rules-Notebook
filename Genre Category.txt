@@ -10,6 +10,7 @@ Classical: Romantical
 Classical: Song
 Classical: Symphony
 Classical: Theater
+Contemporary Classical: Classical Crossover
 Contemporary Classical: Contemporary Classical
 Contemporary Classical: Easy Listening
 Contemporary Classical: Vocal
