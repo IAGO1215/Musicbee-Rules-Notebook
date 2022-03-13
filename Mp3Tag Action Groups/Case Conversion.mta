@@ -21,30 +21,30 @@ F=TITLE
 [#3]
 T=4
 F=TITLE
-1=\\s(.?)'(.?)
-2= $upper($1)'$upper($2)
+1=^(\\w)'(\\w)
+2=$upper($1)'$upper($2)
 3=1
 
 [#4]
 T=4
 F=TITLE
-1=(\\w)\\s(.?)'(.?)
-2=$1 $lower($2)'$upper($3)
+1=\\s(\\w)'(\\w)
+2= $upper($1)'$upper($2)
 3=1
 
 [#5]
 T=4
 F=TITLE
-1=(\\w)\\s(Dell|Degl|Dall|Dagl|)'(.?)
+1=(\\w)\\s(\\w)'(\\w)
 2=$1 $lower($2)'$upper($3)
-3=0
+3=1
 
 [#6]
 T=4
 F=TITLE
-1=(\\w)\\s(Las|Los|En)\\s
-2=$1 $lower($2) 
-3=1
+1=(\\w)\\s(Dell|Degl|Dall|Dagl|)'(.?)
+2=$1 $lower($2)'$upper($3)
+3=0
 
 [#7]
 T=4
@@ -56,56 +56,77 @@ F=TITLE
 [#8]
 T=4
 F=TITLE
-1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au)\\s
+1=(\\w)\\s(Las|Los|En)\\s
 2=$1 $lower($2) 
 3=1
 
 [#9]
 T=4
 F=TITLE
-1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au)\\s
+1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au|Pour|Sur|Ou)\\s
 2=$1 $lower($2) 
 3=1
 
 [#10]
 T=4
 F=TITLE
-1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo)\\s
+1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au|Pour|Sur|Ou)\\s
 2=$1 $lower($2) 
 3=1
 
 [#11]
 T=4
 F=TITLE
-1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo)\\s
+1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo|Di)\\s
 2=$1 $lower($2) 
 3=1
 
 [#12]
 T=4
 F=TITLE
-1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With)\\s
+1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo|Di)\\s
 2=$1 $lower($2) 
 3=1
 
 [#13]
 T=4
 F=TITLE
-1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With)\\s
+1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With|To|From)\\s
 2=$1 $lower($2) 
 3=1
 
 [#14]
 T=4
 F=TITLE
-1=(\\w)\\s(And)\\s
+1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With|To|From)\\s
 2=$1 $lower($2) 
 3=1
 
 [#15]
 T=4
 F=TITLE
+1=(\\w)\\s(And|Ad)\\s
+2=$1 $lower($2) 
+3=1
+
+[#16]
+T=4
+F=TITLE
 1=(.+)'S
 2=$1's
 3=1
+
+[#17]
+T=2
+F=TITLE
+1=i'M
+2=I'm
+3=0|0
+
+[#18]
+T=2
+F=TITLE
+1=i'll
+2=I'll
+3=0|0
 
