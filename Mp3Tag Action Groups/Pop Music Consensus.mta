@@ -1,0 +1,28 @@
+﻿[#0]
+T=2
+F=TITLE
+1= (Album Version)
+2=
+3=0|0
+
+[#1]
+T=2
+F=TITLE
+1= (Bonus Track)
+2=
+3=0|0
+
+[#2]
+T=4
+F=TITLE
+1=\\s\\((.+Bonus\\sTrack)\\)
+2=
+3=0
+
+[#3]
+T=2
+F=TITLE
+1=featuring
+2=feat.
+3=0|0
+
