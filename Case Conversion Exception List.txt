@@ -20,4 +20,4 @@ Romanian:
 固定小写: th|st|nd|rd|feat.|
 固定大写：CSM|BWV|S.|
 首字大写：Opus|Op.|
-特殊注意：(I|You|He|She|It|We|They)('d|'m|'ll|'ve)
+特殊注意：(I|You|He|She|It|We|They)('d|'m|'ll|'ve|'re|'s)
