@@ -42,16 +42,16 @@ F=TITLE
 [#6]
 T=4
 F=TITLE
-1=(\\w)\\s(Dell|Degl|Dall|Dagl|)'(.?)
-2=$1 $lower($2)'$upper($3)
-3=0
+1=\\s(\\w+?)'(\\w)
+2= $caps3($1)'$upper($2)
+3=1
 
 [#7]
 T=4
 F=TITLE
-1=(\\w)\\s(Las|Los|En)\\s
-2=$1 $lower($2) 
-3=1
+1=(\\w)\\s(Dell|Degl|Dall|Dagl|)'(.?)
+2=$1 $lower($2)'$upper($3)
+3=0
 
 [#8]
 T=4
@@ -63,7 +63,7 @@ F=TITLE
 [#9]
 T=4
 F=TITLE
-1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au|Pour|Sur|Ou)\\s
+1=(\\w)\\s(Las|Los|En)\\s
 2=$1 $lower($2) 
 3=1
 
@@ -77,7 +77,7 @@ F=TITLE
 [#11]
 T=4
 F=TITLE
-1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo|Di)\\s
+1=(\\w)\\s(La|De|Dans|Aux|Et|Les|Del|Du|\u00c0|Le|Des|Au|Pour|Sur|Ou)\\s
 2=$1 $lower($2) 
 3=1
 
@@ -91,7 +91,7 @@ F=TITLE
 [#13]
 T=4
 F=TITLE
-1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With|To|From)\\s
+1=(\\w)\\s(Con|Della|Delle|Delli|Dello|Degli|Gli|Lo|Li|Da|Dal|Dalla|Dallo|Dalle|Dalli|Dagli|Dei|Dai|Su|Sul|Sulla|Sulle|Sulli|Sugli|Sullo|Di)\\s
 2=$1 $lower($2) 
 3=1
 
@@ -105,32 +105,39 @@ F=TITLE
 [#15]
 T=4
 F=TITLE
-1=(\\w)\\s(And|Ad)\\s
+1=(\\w)\\s(In|The|An|A|At|On|Of|Off|For|With|To|From)\\s
 2=$1 $lower($2) 
 3=1
 
 [#16]
 T=4
 F=TITLE
+1=(\\w)\\s(And|Ad)\\s
+2=$1 $lower($2) 
+3=1
+
+[#17]
+T=4
+F=TITLE
 1=(.+)'S
 2=$1's
 3=1
 
-[#17]
+[#18]
 T=2
 F=TITLE
 1=i'M
 2=I'm
 3=0|0
 
-[#18]
+[#19]
 T=2
 F=TITLE
 1=i'll
 2=I'll
 3=0|0
 
-[#19]
+[#20]
 T=2
 F=TITLE
 1=m'
