@@ -20,6 +20,13 @@ F=TITLE
 3=0
 
 [#3]
+T=4
+F=TITLE
+1=(\\w)/(\\w)
+2=$1 / $2
+3=0
+
+[#4]
 T=2
 F=TITLE
 1=featuring
