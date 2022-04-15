@@ -35,16 +35,16 @@ F=TITLE
 [#5]
 T=4
 F=TITLE
-1=(\\w)\\s(\\w)'(\\w)
-2=$1 $lower($2)'$upper($3)
+1=\\s(\\w)(\\w+?)'(\\w)
+2= $upper($1)$lower($2)'$upper($3)
 3=1
 
 [#6]
 T=4
 F=TITLE
-1=\\s(\\w)(\\w+?)'(\\w)
-2= $upper($1)$lower($2)'$upper($3)
-3=1
+1=(\\w)\\s(L|D|N|A|O)'(.?)
+2=$1 $lower($2)'$upper($3)
+3=0
 
 [#7]
 T=4
