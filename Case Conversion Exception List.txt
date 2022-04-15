@@ -12,7 +12,7 @@ Turkish:
 Portuguese:
 Romanian:
 
-'缩写特例：dell|degl|sull|sugl|dall|dagl|all|agl|nell|negl|l|d|n|a
+'缩写特例：Dell|Degl|Sull|Sugl|Dall|Dagl|All|Agl|Nell|Negl|L|D|N|A|O
 
 罗马数字: I II III IV V VI VII VIII IX X XI XII XIII XIV XV XVI XVII XVIII XIX XX 
 固定小写: th|st|nd|rd|feat.|
