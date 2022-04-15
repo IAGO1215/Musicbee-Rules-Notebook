@@ -13,20 +13,34 @@ F=TITLE
 3=0|0
 
 [#2]
+T=2
+F=TITLE
+1=Instr.
+2=Instrumental
+3=1|0
+
+[#3]
+T=2
+F=TITLE
+1=Ver.
+2=Version
+3=1|0
+
+[#4]
 T=4
 F=TITLE
 1=\\s\\((.+Bonus\\sTrack)\\)
 2=
 3=0
 
-[#3]
+[#5]
 T=4
 F=TITLE
 1=(\\w)/(\\w)
 2=$1 / $2
 3=0
 
-[#4]
+[#6]
 T=2
 F=TITLE
 1=featuring

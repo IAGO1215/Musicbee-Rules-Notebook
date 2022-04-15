@@ -2,7 +2,7 @@
 T=1
 F=TITLE
 1=1
-2=(-,./")[];:?!
+2=(-,./")[];:?!\u00a1\u00bf
 
 [#1]
 T=2
@@ -49,21 +49,21 @@ F=TITLE
 [#7]
 T=4
 F=TITLE
-1=(\\w)\\s(Dell|Degl|Dall|Dagl|)'(.?)
+1=(\\w)\\s(Dell|Degl|Dall|Dagl|All|Agl|Sull|Sugl)'(.?)
 2=$1 $lower($2)'$upper($3)
 3=0
 
 [#8]
 T=4
 F=TITLE
-1=(\\w)\\s(Las|Los|En|El)\\s
+1=(\\w)\\s(Las|Los|En|El|Para|Por)\\s
 2=$1 $lower($2) 
 3=1
 
 [#9]
 T=4
 F=TITLE
-1=(\\w)\\s(Las|Los|En|El)\\s
+1=(\\w)\\s(Las|Los|En|El|Para|Por)\\s
 2=$1 $lower($2) 
 3=1
 
@@ -98,14 +98,14 @@ F=TITLE
 [#14]
 T=4
 F=TITLE
-1=(\\w)\\s(Al|Alla|Alle|Alli|Allo|Un|Una)\\s
+1=(\\w)\\s(Al|Alla|Alle|Alli|Allo|Un|Una|Uno|Per)\\s
 2=$1 $lower($2) 
 3=1
 
 [#15]
 T=4
 F=TITLE
-1=(\\w)\\s(Al|Alla|Alle|Alli|Allo|Un|Una)\\s
+1=(\\w)\\s(Al|Alla|Alle|Alli|Allo|Un|Una|Uno|Per)\\s
 2=$1 $lower($2) 
 3=1
 

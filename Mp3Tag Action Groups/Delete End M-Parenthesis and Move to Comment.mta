@@ -1,0 +1,17 @@
+﻿[#0]
+T=7
+F=%Title%
+1=%Title%[%Comment%]
+
+[#1]
+T=5
+1=$trim(%Title%)
+F=TITLE
+
+[#2]
+T=2
+F=TITLE
+1= : 
+2=: 
+3=0|0
+
