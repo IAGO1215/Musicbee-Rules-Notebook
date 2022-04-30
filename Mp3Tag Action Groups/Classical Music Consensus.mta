@@ -1,77 +1,210 @@
 ﻿[#0]
+T=4
+F=TITLE
+1=\\s'(\\w)
+2= "$1
+3=0
+
+[#1]
+T=4
+F=TITLE
+1=(\\w)'\\s
+2=$1" 
+3=0
+
+[#2]
+T=4
+F=TITLE
+1=(\\w)'$
+2=$1"
+3=0
+
+[#3]
 T=2
 F=TITLE
 1=major
 2=Major
 3=1|0
 
-[#1]
+[#4]
 T=2
 F=TITLE
 1=minor
 2=Minor
 3=1|0
 
-[#2]
+[#5]
 T=2
 F=TITLE
 1= flat
 2=-Flat
 3=0|0
 
-[#3]
+[#6]
 T=2
 F=TITLE
 1= sharp
 2=-Sharp
 3=0|0
 
-[#4]
+[#7]
 T=2
 F=TITLE
 1=Arr.
 2=Arranged by
 3=0|0
 
-[#5]
+[#8]
+T=4
+F=TITLE
+1=S\\.(\\d)
+2=S. $1
+3=0
+
+[#9]
+T=4
+F=TITLE
+1=S(\\d)
+2=S. $1
+3=0
+
+[#10]
+T=4
+F=TITLE
+1=\\sNo\\s(\\d)
+2= No. $1
+3=0
+
+[#11]
+T=4
+F=TITLE
+1=\\sOp\\s(\\d)
+2= Op. $1
+3=0
+
+[#12]
 T=4
 F=_ALL
 1=No\\.([0-9]+)
 2=No. $1
 3=0
 
-[#6]
+[#13]
 T=4
 F=_ALL
 1=Op\\.([0-9]+)
 2=Op. $1
 3=0
 
-[#7]
+[#14]
+T=4
+F=_ALL
+1=K\\.([0-9]+)
+2=K. $1
+3=1
+
+[#15]
 T=2
 F=TITLE
 1= : 
 2=: 
 3=0|0
 
-[#8]
+[#16]
 T=4
 F=TITLE
 1=\\s(a|e)(.+)(Minor|Major)
 2= $upper($1)$2$3
 3=0
 
-[#9]
+[#17]
 T=2
-F=ALL
+F=TITLE
 1=\u2013
 2=-
 3=0|0
 
-[#10]
+[#18]
 T=4
 F=_ALL
 1=(TH\\.|BWV|HWV|SV)
 2=$upper($1)
+3=0
+
+[#19]
+T=2
+F=TITLE
+1=D,
+2=D Major,
+3=1|1
+
+[#20]
+T=2
+F=TITLE
+1=C,
+2=C Major,
+3=1|1
+
+[#21]
+T=2
+F=TITLE
+1=E,
+2=E Major,
+3=1|1
+
+[#22]
+T=2
+F=TITLE
+1=A,
+2=A Major,
+3=1|1
+
+[#23]
+T=2
+F=TITLE
+1=G,
+2=G Major,
+3=1|1
+
+[#24]
+T=2
+F=TITLE
+1=B,
+2=B Major,
+3=1|1
+
+[#25]
+T=2
+F=TITLE
+1=F,
+2=F Major,
+3=1|1
+
+[#26]
+T=2
+F=TITLE
+1=Flat,
+2=Flat Major,
+3=0|1
+
+[#27]
+T=2
+F=TITLE
+1=Sharp,
+2=Sharp Major,
+3=0|1
+
+[#28]
+T=4
+F=TITLE
+1=e(\\sMinor|\\sMajor|-Flat|-Minor)
+2=E$1
+3=0
+
+[#29]
+T=4
+F=TITLE
+1=a(\\sMinor|\\sMajor|-Flat|-Minor)
+2=A$1
 3=0
 

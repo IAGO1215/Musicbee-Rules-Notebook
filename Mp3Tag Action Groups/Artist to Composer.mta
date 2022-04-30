@@ -1,0 +1,12 @@
+﻿[#0]
+T=5
+1=%artist%
+F=COMPOSER
+
+[#1]
+T=2
+F=COMPOSER
+1= & 
+2=; 
+3=0|0
+
