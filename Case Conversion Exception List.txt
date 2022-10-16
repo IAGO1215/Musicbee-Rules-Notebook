@@ -12,11 +12,12 @@ Turkish:
 Portuguese:
 Romanian:
 
-'缩写特例：Dell|Degl|Sull|Sugl|Dall|Dagl|All|Agl|Nell|Negl|L|D|N|A|O
+Exception (Initial be Lower Case)：Dell|Degl|Sull|Sugl|Dall|Dagl|All|Agl|Nell|Negl|L|D|N|A|O
 
-罗马数字: I II III IV V VI VII VIII IX X XI XII XIII XIV XV XVI XVII XVIII XIX XX 
-固定小写: th|st|nd|rd|feat.|
-特殊注意：(I|You|He|She|It|We|They)('d|'m|'ll|'ve|'re|'s)
+Roman Number: I II III IV V VI VII VIII IX X XI XII XIII XIV XV XVI XVII XVIII XIX XX 
+Fixed Abbreviation: th|st|nd|rd|feat.|
+Personal Pronoun：(I|You|He|She|It|We|They)('d|'m|'ll|'ve|'re|'s)
 
-古典音乐大写：CSM|BWV|S.|SV|
-古典音乐标准：Op.|Opus|
+UPPER Case for Classical Music：CSM|BWV|S.|SV|
+Proper Case for Classical Music：Op.|Opus|
+lower Case for Classical Music: 
