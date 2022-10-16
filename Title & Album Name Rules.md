@@ -1,6 +1,12 @@
 ### Title Template
 
-1. 歌曲原名以及补充信息 → 2. 翻译或罗马拼音 → 3. feat. → 4. 特殊版本注明 → 5. Remix → 6. 现场信息
+From left to right: 
+1. Title
+2. Translation or Romanization
+3. Additional Information regarding the Song (Most cases are early music and classical music)
+5. feat. + Remix | Remix + feat. | Remix | feat. 
+6. Special Version: e.g., Radio Edit, Single Version, 
+7. Live Information
 
 #### 1.1 歌曲原名
 
