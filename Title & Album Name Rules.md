@@ -81,8 +81,12 @@ These versions should be either put into 'comment' tags or 'grouping' tags.
 
 **Template of Live Version**
 
-> Live at + Festival|Concert|Tour|Location|Place + , City|Country, + , + Date|Year
-> Live at + Festival|Concert|Tour|Location|Place + , + Date|Year
-> Live in + City|Country + , + Date|Year
-> Live in + Year
-> Live on + Date
+> Live at + Festival|Concert|Tour|Location|Place + , City|Country, + , + Date|Year 
+> 
+> Live at + Festival|Concert|Tour|Location|Place + , + Date|Year 
+> 
+> Live in + City|Country + , + Date|Year 
+> 
+> Live in + Year 
+> 
+> Live on + Date 
