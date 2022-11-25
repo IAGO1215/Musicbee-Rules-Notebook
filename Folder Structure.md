@@ -1,3 +1,3 @@
-''' 
+''
 $If(<Album Artist>="Various Artists",_Various" "Artists\<Year (yyyy)>" - "<Genre>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "<Artist>" - "$Left(<Title>,50),<Disc-Track#>" - "<Artist>" - "$Left(<Title>,50)),$If(<Genre Category>="Classical",$Group(<Sort Album Artist>,1)\$IsNull(<Original Artist>,<Album Artist>,<Original Artist>)\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Disc Count>=1,$IsNull(<Composer>,<Track#>" - "$Left(<Title>,70),<Track#>" - "$Split($First(<Composer>)," (",1)" - "$Left(<Title>,70)),$IsNull(<Composer>,<Disc-Track#>" - "$Left(<Title>,70),<Disc-Track#>" - "$Split($First(<Composer>)," (",1)" - "$Left(<Title>,70))),$Group(<Sort Album Artist>,1)\<Album Artist>\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "$Left(<Title>,50),<Disc-Track#>" - "$Left(<Title>,50))))
-''' 
+''
