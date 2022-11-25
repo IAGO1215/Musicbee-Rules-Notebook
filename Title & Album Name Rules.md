@@ -79,7 +79,7 @@ These versions should be either put into 'comment' tags or 'grouping' tags.
 
 #### 5.3 Live Version - Title
 
-**Template of Live Version
+**Template of Live Version**
 
 > Live at + Festival|Concert|Tour|Location|Place + , City|Country, + , + Date|Year
 > Live at + Festival|Concert|Tour|Location|Place + , + Date|Year
