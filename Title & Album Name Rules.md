@@ -1,63 +1,88 @@
-### Title Template
+# Title Template
 
 From left to right: 
 1. Title
-2. Translation or Romanization
-3. Additional Information regarding the Song (Most cases are early music and classical music)
-5. feat. + Remix | Remix + feat. | Remix | feat. 
-6. Special Version: e.g., Radio Edit, Single Version, 
-7. Live Information
+2. Romanization | Translation
+3. Additional information regarding the Track
+4. Remix | feat. 
+5. Version
 
-#### 1.1 歌曲原名
+#### 1.1 Title
 
-尽可能使用艺术家的本国语言，如果找不到准确信息，则使用英语或对应的罗马拼音
+Put the title in its original language. If the title of a certain language can't be found, use its romanization or other consensus title instead. 
 
-#### 1.2 补充信息
+#### 2.1 Romanization | Translation
 
-补充信息包括但不限于：
+Romanization is only supported by the languages other than Chinese, Korean, Japanese and Indo-European language family. 
 
-| 补充信息  | 命名方式 |
-| ------------- | ------------- |
-| 原曲年代  | 通常会将该信息存放在\<Comment\>里，**标题后括号内**  |
-| 原标题自带的补充信息  | **标题后括号内**  |
-| 原曲来源  | 可以是地区、原歌手（非作曲家）、民族等等，但通常会将该信息存放在\<Comment\>里；**标题后括号内**  |
-| 歌曲类型  | 尤其是对于早期音乐，通常会注明Virelai、Motet等曲式；**标题后括号内**  |
-| 作曲家  | 通常只需要在<Composer>里注明，但部分合集专辑可能需要单独注明；**标题前引号前**，必须采用缩写格式（见“作曲家缩写.txt”）  |
-<!-- | Content Cell  | Content Cell  | -->
+Translation is only supported by Korean and only English translation is considered, while for other languages, the translation of the title should be put into the comment tag. 
 
-#### 2.1 是否注明对应的英文翻译
+#### 3.1 Additional Information
 
-除韩文歌外，所有歌曲都不需要在标题里注明英文翻译，而是在\<Comment\>里注明
-韩语歌的英文翻译要紧跟在标题后面，如너 아님 안돼 (Gotta Be You) [feat. XXX] (Unplugged Version) [Rearranged] (Live)
+#### 4.1 Remix
 
-#### 2.2 是否注明对应的罗马拼音
+**Template**
 
-除阿拉伯字母和希伯来字母的歌曲外，所有歌曲都不需要在标题里注明罗马拼音；即使阿拉伯字母和希伯来字母，也可以视情况而定是否需要注明罗马拼音
+> XXXX Remix
+> Remix by A | A & B | A, B & C | ...
+> XXXX Remix by
 
-#### 3 feat.
+#### 4.2 feat. 
 
-所有feat的艺术家必须以guest artist形式出现在<Artists>里；但如果该艺术家在资料库里没有个人专辑，则不允许在<Artists>里注明，仅在标题里注明即可
+**Template**
 
-对于with形式的合作而言，通常会在<Artist (Display)> 中注明所有艺术家，而不在<Title>注明；如果被with的艺术家在资料库里没有个人专辑，那么可以暂时将其在<Title>标注为feat的艺术家，而<Artist (Display) >只保留主要艺术家
+> feat. A | A & B | A, B & C | ...
 
-#### 4 特殊版本
+#### 4.3 Order of Remix and feat.
 
-如Alternative Version、Unplugged Version、Instrumental、Radio Cut、Deezer Session
+1. If the original track has 'feat.' tag, then the remix versions should have their remix information after 'feat.'. 
+2. If the original track has no 'feat.' tag, and the remix versions add new 'feat.' tags, then the 'feat.' should be put after remix information. 
+3. If the original track has 'feat.' tag, and the remix versions add other new 'feat.' tags, then keep the order of 'feat.' and remix. 
 
-Album Version不允许出现在录音室全长专辑里的任一单曲<Title>里，因此对应的单曲版本需要注明Single Version或Radio Cut/Edit
+#### 4.4 feat. Artists
 
-Special Track、Bonus Track等加曲信息不允许出现在<Title>里，而是在<Grouping>里单独注明，信息尽可能准确齐全（如Japanese Bonus Track)
+All the artists appear in 'feat.' should be put into 'Guest Artist' tag, except those who don't have any personal releases in the current library. 
 
-#### 5 Remix
+#### 4.5 with Aritsts
 
-Remix约定俗成的命名规范为 XXX Remix；当Remix没有标注Remixer的时候，这时候Remix信息视作特殊版本信息
+#### 5.1 Version
 
-#### 6 现场信息（注意逗号）
+**Accepted Versions**
 
-现场信息格式1：Live at 具体地点（如柏林大教堂）或者活动名称（如异教民谣节庆）或者巡演名称（如我Play世界巡回）, 城市或国家（仅当不知道城市时使用国家）或年份（仅当不知道国家时使用年份）, 日期（格式为03/13/1996）
-  
-现场信息格式2：Live at 具体地点（如柏林大教堂）或者活动名称（如异教民谣节庆）或者巡演名称（如我Play世界巡回），年份或日期
-  
-现场信息格式3：Live in 城市或国家（仅当不知道城市时使用国家），年份或日期
-  
-现场信息格式4：Live in 年份
+- Alternative Version
+- Unplugged Version
+- Single Cut
+- Radiot Cut
+- Instrumental
+- Acoustic Version
+- XXXX Session
+- Demo
+
+**Declined Versions**
+
+These versions should be either put into 'comment' tags or 'grouping' tags. 
+
+- Single Version
+- Album Version
+- Bonus Track
+- Special Version
+- Remastered
+- Reissued
+- Extended Version
+
+#### 5.2 Live Version - Date
+
+**Template of Date**
+> dd/mm/yyyy -> 01/01/2022
+> MM yyyy -> March 2022
+> yyyy -> 2022
+
+#### 5.3 Live Version - Title
+
+**Template of Live Version
+
+> Live at + Festival|Concert|Tour|Location|Place + , City|Country, + , + Date|Year
+> Live at + Festival|Concert|Tour|Location|Place + , + Date|Year
+> Live in + City|Country + , + Date|Year
+> Live in + Year
+> Live on + Date
