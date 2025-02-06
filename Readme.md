@@ -64,7 +64,7 @@ $If(<Album Artist>="Various Artists","_Various Artists"\<Year (yyyy)>" - "<Genre
 
 ### \<Album Artist\> = "Various Artists"
 
-The first level folder should be named "**_Various Artists**". 
+The first level folder should be named "**_Various Artists**".  
 
 The second level follows "**Year - Genre - Album**" structure:
 
