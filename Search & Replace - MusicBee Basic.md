@@ -1,7 +1,9 @@
 # Search & Replace - MusicBee Basic
+
 Regular expressions used in musicbee default search and replace tool.
 
 ## Change "A - B" to "B - A"
+
 Search：
 >(.+?)\s-\s(.+)
 
@@ -11,6 +13,7 @@ Replace：
 Example："Cantiga – 384" → "384 - Cantiga"
 
 ## Change "A - B C" to "B - A C"
+
 Search：
 >(.+?)\s-\s(.+?)\s(.+)
 
@@ -18,6 +21,7 @@ Replace：
 >$2 - $1 $3
 
 Example："Cantiga - 384 A que por muy" → "384 - Cantiga A que por muy"
+
 ## Add annotation text with the parenthesis to the end
 
 Search:  
@@ -30,7 +34,7 @@ Example: "Cantiga" → "Cantiga (Live)"
 
 ## Remove quotation marks
 
-Search: 
+Search:  
 >'(.+)'
 
 or  
@@ -46,11 +50,11 @@ Replace:
 
 Example: "Cantiga '384'" → "Cantiga 384"
 
-Note: For moving the content inside to another tag in musicbee, check advanced page. 
+Note: For moving the content inside to another tag in musicbee, check advanced page.  
 
 ## Remove parenthesis
 
-Search: 
+Search:  
 >(\\(.+\\))
 
 If its content should be kept:  
@@ -65,20 +69,20 @@ Example: "Cantiga 384 (Alfonso)" → "Cantiga 384"
 
 ## Trim the space at either the beginning or the end
 
-Search: 
+Search:  
 >^\s+|\s+$
 
-Replace: 
+Replace:  
 >empty
 
 Example: " Cantiga 384 " → "Cantiga 384"
 
 ## Only keep the content before first dot
 
-Search: 
+Search:  
 >(.+?)\\.(.*)
 
-Replace: 
+Replace:  
 >$1
 
 Example: "Cantiga 384. A que por muy" → "Cantiga 384"
