@@ -62,9 +62,9 @@ $If(<Album Artist>="Various Artists","_Various Artists"\<Year (yyyy)>" - "<Genre
 
 ## Stucture Breakdown
 
-### \<Album Artist\> = "Various Artists"
+### \<Album Artist\> is "Various Artists"
 
-The first level folder should be named "**_Various Artists**".  
+In this case, the first level folder should be named "**_Various Artists**".  
 
 The second level follows "**Year - Genre - Album**" structure:
 
@@ -72,7 +72,7 @@ The second level follows "**Year - Genre - Album**" structure:
 
 The third and last level depends on the disc number of an album:
 
-if the album only contains one disc, then "**#Track - Artist - Title**": 
+if the album only contains one disc, then "**#Track - Artist - Title**":  
 
 `<Track#>" - "<Artist>" - "$Left(<Title>,50)`
 
@@ -80,5 +80,5 @@ otherwise "**#Disc-#Track - Artist - Title**":
 
 `<Disc-Track#>" - "<Artist>" - "$Left(<Title>,50)`
 
-### \<Album Artist\> != "Various Artists"
+### \<Album Artist\> is not "Various Artists"
 
