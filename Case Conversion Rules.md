@@ -41,7 +41,7 @@ The choices of prepositions and conjunctions are subjective, but generally, if a
 ### German (Generally should be prevented from case conversion due to initial letters of nouns in German are always in upper case)
 >ein|eine|einen|einem|einer|eines|der|die|das|dem|den|des|von|vom|zu|zur|zum|ans|aufs|aus|mit|ohne|oder|in|bei|auf|über|als|für|und
 ### Greek
->Ο|Του|Τον|Οι|Των|Τους|Η|Της|Την|Οι|Τις|Το|Τα|Και|Ή|Αν|Σε|Από|Με|Για|Μετά|Πριν|Με|Χωρίς|Περί|Κατά|Από|Πάνω|Κάτω|Στο|Γύρω|Ανάμεσα|Εκτός|Δίπλα|Για|Ένας|Ενός|Έναν|Ενών|Έναν|Μία|Μίας|Ένα|Στα|Κι|Στο|Στον|Αν
+>Ο|Του|Τον|Οι|Των|Τους|Η|Της|Την|Οι|Τις|Το|Τα|Και|Ή|Αν|Σε|Από|Με|Για|Μετά|Πριν|Με|Χωρίς|Περί|Κατά|Από|Πάνω|Κάτω|Στο|Γύρω|Ανάμεσα|Εκτός|Δίπλα|Για|Ένας|Ενός|Έναν|Ενών|Έναν|Μία|Μίας|Ένα|Στα|Κι|Στο|Στον|Αν|Στη
 ### Latin
 >ab|ad|cum|de|ex|in|inter|per|pro|sine|sub|et|aut|sed|nec|neque|si|quia|ut|dum|nam
 ### Danish\Norwegian\Swedish\Icelandic
