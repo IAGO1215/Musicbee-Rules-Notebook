@@ -38,10 +38,10 @@ The choices of prepositions and conjunctions are subjective, but generally, if a
 >el|la|los|las|de|del|por|para|y|o|in|i|al|con|sin
 ### Russian
 >и|или|либо|в|на|из|с|от|к|о|об|для|без|по|про|через|под|над|при|мимо|вокруг|среди|после|до|во|пока
-### German
+### German (Generally should be prevented from case conversion due to initial letters of nouns in German are always in upper case)
 >ein|eine|einen|einem|einer|eines|der|die|das|dem|den|des|von|vom|zu|zur|zum|ans|aufs|aus|mit|ohne|oder|in|bei|auf|über|als|für|und
 ### Greek
->ο|του|τον|οι|των|τους|η|της|την|οι|τις|το|τα|και|ή|αν|σε|από|με|για|μετά|πριν|με|χωρίς|περί|κατά|από|πάνω|κάτω|στο|γύρω|ανάμεσα|εκτός|δίπλα|για|ένας|ενός|έναν|ενών|έναν|μία|μίας|ένα
+>Ο|Του|Τον|Οι|Των|Τους|Η|Της|Την|Οι|Τις|Το|Τα|Και|Ή|Αν|Σε|Από|Με|Για|Μετά|Πριν|Με|Χωρίς|Περί|Κατά|Από|Πάνω|Κάτω|Στο|Γύρω|Ανάμεσα|Εκτός|Δίπλα|Για|Ένας|Ενός|Έναν|Ενών|Έναν|Μία|Μίας|Ένα|Στα|Κι|Στο|Στον|Αν|Στη
 ### Latin
 >ab|ad|cum|de|ex|in|inter|per|pro|sine|sub|et|aut|sed|nec|neque|si|quia|ut|dum|nam
 ### Danish\Norwegian\Swedish\Icelandic

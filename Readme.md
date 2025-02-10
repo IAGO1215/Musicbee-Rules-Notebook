@@ -99,4 +99,4 @@ Then the final filename will depend on the disc number. And if a track contains 
 
 Group \<**Sort Album Artist**\> by their initial letters. And then for each album artist, sort their albums by `<Year (yyyy)>" - "$Left(<Album>,70)`
 
-`$Group(<Sort Album Artist>,1)\<Sort Album Artist>\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "$Left(<Title>,50),<Disc-Track#>" - "$Left(<Title>,50))))`
+`$Group(<Sort Album Artist>,1)\<Sort Album Artist>\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "$Left(<Title>,50),<Disc-Track#>" - "$Left(<Title>,50))))`  
