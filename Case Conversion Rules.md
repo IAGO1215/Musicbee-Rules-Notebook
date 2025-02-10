@@ -29,33 +29,33 @@ The articles in all languages should be in lower case without exception.
 The choices of prepositions and conjunctions are subjective, but generally, if a word only has a few letters, it should be in lower case.  
 
 ### English
->a|an|the|of|from|with|without|or|in|at|on|over|as|for|and
+>A|An|The|Of|From|With|Without|Or|In|At|On|Over|As|For|And
 ### Italian
->il|la|lo|i|le|gli|di|del|della|delle|dello|da|dal|dalla|dalle|dallo|con|col|senza|o|in|nel|nella|nelle|nello|sopra|sotto|su|sul|sulla|sulle|sullo|a|al|alla|alle|allo|per|ad
+>Il|La|Lo|I|Le|Gli|Di|Del|Della|Delle|Dello|Da|Dal|Dalla|Dalle|Dallo|Con|Col|Senza|O|In|Nel|Nella|Nelle|Nello|Sopra|Sotto|Su|Sul|Sulla|Sulle|Sullo|A|Al|Alla|Alle|Allo|Per|Ad
 ### French
->le|la|les|des|du|au|à|en|de|pour|sans|avec|sur|sous|par|vers
+>Le|La|Les|Des|Du|Au|À|En|De|Pour|Sans|Avec|Sur|Sous|Par|Vers
 ### Spanish
->el|la|los|las|de|del|por|para|y|o|in|i|al|con|sin
+>El|La|Los|Las|De|Del|Por|Para|Y|O|In|I|Al|Con|Sin
 ### Russian
->и|или|либо|в|на|из|с|от|к|о|об|для|без|по|про|через|под|над|при|мимо|вокруг|среди|после|до|во|пока
+>И|Или|Либо|В|На|Из|С|От|К|О|Об|Для|Без|По|Про|Через|Под|Над|При|Мимо|Вокруг|Среди|После|До|Во|Пока|У
 ### German (Generally should be prevented from case conversion due to initial letters of nouns in German are always in upper case)
 >ein|eine|einen|einem|einer|eines|der|die|das|dem|den|des|von|vom|zu|zur|zum|ans|aufs|aus|mit|ohne|oder|in|bei|auf|über|als|für|und
 ### Greek
->Ο|Του|Τον|Οι|Των|Τους|Η|Της|Την|Οι|Τις|Το|Τα|Και|Ή|Αν|Σε|Από|Με|Για|Μετά|Πριν|Με|Χωρίς|Περί|Κατά|Από|Πάνω|Κάτω|Στο|Γύρω|Ανάμεσα|Εκτός|Δίπλα|Για|Ένας|Ενός|Έναν|Ενών|Έναν|Μία|Μίας|Ένα|Στα|Κι|Στο|Στον|Αν|Στη
+>Ο|Του|Τον|Οι|Των|Τους|Η|Της|Την|Οι|Τις|Το|Τα|Και|Ή|Αν|Σε|Από|Με|Για|Μετά|Πριν|Με|Χωρίς|Περί|Κατά|Από|Πάνω|Κάτω|Στο|Γύρω|Ανάμεσα|Εκτός|Δίπλα|Για|Ένας|Ενός|Έναν|Ενών|Έναν|Μία|Μίας|Ένα|Στα|Κι|Στο|Στον|Αν|Στη|Στις
 ### Latin
->ab|ad|cum|de|ex|in|inter|per|pro|sine|sub|et|aut|sed|nec|neque|si|quia|ut|dum|nam
+>Ab|Ad|Cum|De|Ex|In|Inter|Per|Pro|Sine|Sub|Et|Aut|Sed|Nec|Neque|Si|Quia|Ut|Dum|Nam
 ### Danish\Norwegian\Swedish\Icelandic
->den|det|de|en|et|en|ett|a|an|i|på|af|til|med|fra|om|over|under|ved|og|eller|men|så|fordi|hvis|at|av|från|över|vid|och|att|för|í|á|frá|til|með|um|undir|yfir|við|eða|svo|því|ef|að
+>Den|Det|De|En|Et|En|Ett|A|An|I|På|Af|Til|Med|Fra|Om|Over|Under|Ved|Og|Eller|Men|Så|Fordi|Hvis|At|Av|Från|Över|Vid|Och|Att|För|Í|Á|Frá|Til|Með|Um|Undir|Yfir|Við|Eða|Svo|Því|Ef|Að
 ### Portuguese
->o|a|os|as|um|uma|uns|umas|e|ou|se|pois|de|em|com|para|por|sem|via
+>O|A|Os|As|Um|Uma|Uns|Umas|E|Ou|Se|Pois|De|Em|Com|Para|Por|Sem|Via
 ### Romanian:
->un|o|de|din|cu|fără|sau|în|la|pe|peste|ca|pentru|și
+>Un|O|De|Din|Cu|Fără|Sau|În|La|Pe|Peste|Ca|Și
 ### Finnish (Not familiar)
->ja|tai|jos
+>Ja|Tai|Jos
 ### Hungarian (Not familiar)
->a|egy|az|ból|ből|tól|től|val|vel|nélkül|vagy|ban|ben|nál|nél|on|en|ön|felett|mint|ért|és
+>A|Egy|Az|Ból|Ből|Tól|Től|Val|Vel|Nélkül|Vagy|Ban|Ben|Nál|Nél|On|En|Ön|Felett|Mint|Ért|És
 ### Turkish (Not familiar)
->bir||ile|sensiz|veya|de|da|üzer|olarak|için|ve
+>Bir|İle|Sensiz|Veya|De|Da|Üzer|Olarak|İçin|Ve
 ### Arabic / Hebrew
 Not supported.  
 
@@ -67,7 +67,9 @@ For example, "L'Armour de Ma Vie' should not be changed to "L'armour de Ma Vie'.
 
 ## Other Contracted Forms with '
 
-Personal Pronoun：(I|You|He|She|It|We|They)('d|'m|'ll|'ve|'re|'s)
+Personal Pronoun  
+
+>(I|You|He|She|It|We|They)('d|'m|'ll|'ve|'re|'s)
 
 ## Fixed Cases
 
@@ -79,6 +81,8 @@ Personal Pronoun：(I|You|He|She|It|We|They)('d|'m|'ll|'ve|'re|'s)
 
 ## Classical Music Opus
 
-UPPER Case for Classical Music：CSM|BWV|S.|SV|  
-Proper Case for Classical Music：Op.|Opus|  
+UPPER Case for Classical Music：
+>CSM|BWV|S.|SV|  
+Proper Case for Classical Music：
+>Op.|Opus|  
 lower Case for Classical Music:  
