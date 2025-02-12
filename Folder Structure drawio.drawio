@@ -1,0 +1,197 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="b0qGeXAJGz4uPOIuHWLx">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-1" target="ogIVPFOfPdoaAFS9Q7zK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-2" target="ogIVPFOfPdoaAFS9Q7zK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-2" value="Track" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-4" target="ogIVPFOfPdoaAFS9Q7zK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-9">
+          <mxGeometry x="0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-4" target="ogIVPFOfPdoaAFS9Q7zK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-22" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-21">
+          <mxGeometry x="-0.1" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-4" value="Is &lt;b&gt;&amp;lt;Album Artist&amp;gt;&lt;/b&gt; &quot;Various Artists&quot;?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry y="260" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-6" target="ogIVPFOfPdoaAFS9Q7zK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-6" value="“_Various Artists&quot;\" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-7" target="ogIVPFOfPdoaAFS9Q7zK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-15">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-7" target="ogIVPFOfPdoaAFS9Q7zK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-18">
+          <mxGeometry x="0.4267" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-7" value="Is &lt;b&gt;&amp;lt;Disc Count&amp;gt;&lt;/b&gt; equal to 1?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-10" target="ogIVPFOfPdoaAFS9Q7zK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-10" value="$Group(&amp;lt;Sort Album Artist&amp;gt;,1)\" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-12" value="&amp;lt;Track#&amp;gt;&quot; - &quot;&amp;lt;Artist&amp;gt;&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,50)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-17" value="&amp;lt;Disc-Track#&amp;gt;&quot; - &quot;&amp;lt;Artist&amp;gt;&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,50)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-23" target="ogIVPFOfPdoaAFS9Q7zK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-55" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-36">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-23" target="ogIVPFOfPdoaAFS9Q7zK-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-56" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-54">
+          <mxGeometry x="-0.32" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-23" value="Is &lt;b&gt;&amp;lt;Genre Category&amp;gt;&lt;/b&gt;&amp;nbsp;”Classical&quot;?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-25" value="&amp;lt;Track#&amp;gt;&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,70)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-31" value="&amp;lt;Track#&amp;gt;&quot; - &quot;$Split($First(&amp;lt;Sort Composer&amp;gt;),&quot; (&quot;,1)&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,70)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-32" target="ogIVPFOfPdoaAFS9Q7zK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-32" value="&amp;lt;Album Artist&amp;gt;\&amp;lt;Year (yyyy)&amp;gt;&quot; - &quot;$Left(&amp;lt;Album&amp;gt;,70)\" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-35" target="ogIVPFOfPdoaAFS9Q7zK-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-43" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-42">
+          <mxGeometry x="0.18" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-35" target="ogIVPFOfPdoaAFS9Q7zK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-46" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-45">
+          <mxGeometry x="0.1091" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-35" value="Is &lt;b&gt;&amp;lt;Disc Count&amp;gt;&lt;/b&gt; equal to 1?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-37" target="ogIVPFOfPdoaAFS9Q7zK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-40" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-38">
+          <mxGeometry x="0.2" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-37" target="ogIVPFOfPdoaAFS9Q7zK-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-41" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-39">
+          <mxGeometry x="0.0333" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-37" value="Is &lt;b&gt;&amp;lt;Sort Composer&amp;gt;&lt;/b&gt;&amp;nbsp;null?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-44" target="ogIVPFOfPdoaAFS9Q7zK-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-51" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-49">
+          <mxGeometry x="0.62" relative="1" as="geometry">
+            <mxPoint x="-15" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-44" target="ogIVPFOfPdoaAFS9Q7zK-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-52" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-50">
+          <mxGeometry x="0.1636" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-44" value="Is &lt;b&gt;&amp;lt;Sort Composer&amp;gt;&lt;/b&gt;&amp;nbsp;null?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry x="880" y="360" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-47" value="&amp;lt;Disc-Track#&amp;gt;&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,70)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-48" value="&amp;lt;Disc-Track#&amp;gt;&quot; - &quot;$Split($First(&amp;lt;Sort Composer&amp;gt;),&quot; (&quot;,1)&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,70))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-53" target="ogIVPFOfPdoaAFS9Q7zK-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-59">
+          <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogIVPFOfPdoaAFS9Q7zK-53" target="ogIVPFOfPdoaAFS9Q7zK-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-62" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogIVPFOfPdoaAFS9Q7zK-60">
+          <mxGeometry x="-0.02" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-53" value="Is &lt;b&gt;&amp;lt;Disc Count&amp;gt;&lt;/b&gt; equal to 1?" style="rhombus;whiteSpace=wrap;html=1;spacing=2;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="540" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-57" value="&amp;lt;Track#&amp;gt;&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,50)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogIVPFOfPdoaAFS9Q7zK-58" value="&amp;lt;Disc-Track#&amp;gt;&quot; - &quot;$Left(&amp;lt;Title&amp;gt;,50)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

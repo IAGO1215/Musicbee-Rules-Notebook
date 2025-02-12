@@ -49,16 +49,20 @@ If a Korean artist's name doesn't contain any Hangul, then no change is needed. 
 
 If a Korean artist's name contains Hangul, then use romanization. For example, "**이정현**" should be sorted as "**Lee Jung-hyun**".  
 
-## Japanese / Greek /  Cyrillic Letters / Hebrew / Vietnamese / Arabic / Thai...  
+## Japanese / Greek /  Cyrillic Letters / Hebrew / Vietnamese / Arabic / Thai / etc  
 
 Use romanization.  
 
-# Folder Structure
+# Folder Structure * Filename Rules
+
+## Flowchart
+
+![Folder Structure](Img/Folder%20Structure.png)
 
 ## Musicbee Code
 
 ``` text
-$If(<Album Artist>="Various Artists","_Various Artists"\<Year (yyyy)>" - "<Genre>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "<Sort Artist>" - "$Left(<Sort Title>,50),<Disc-Track#>" - "<Sort Artist>" - "$Left(<Sort Title>,50)),$If(<Genre Category>="Classical",$Group(<Sort Album Artist>,1)\$IsNull(<Original Artist>,<Sort Album Artist>,<Original Artist>)\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Disc Count>=1,$IsNull(<Sort Composer>,<Track#>" - "$Left(<Title>,70),<Track#>" - "$Split($First(<Sort Composer>)," (",1)" - "$Left(<Title>,70)),$IsNull(<Sort Composer>,<Disc-Track#>" - "$Left(<Title>,70),<Disc-Track#>" - "$Split($First(<Sort Composer>)," (",1)" - "$Left(<Title>,70))),$Group(<Sort Album Artist>,1)\<Sort Album Artist>\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "$Left(<Title>,50),<Disc-Track#>" - "$Left(<Title>,50))))
+$If(<Album Artist>="Various Artists","_Various Artists"\<Year (yyyy)>" - "<Genre>" - "$Left(<Album>,70)\$If(<Disc Count>=1,<Track#>" - "<Artist>" - "$Left(<Title>,50),<Disc-Track#>" - "<Artist>" - "$Left(<Title>,50)),$Group(<Sort Album Artist>,1)\<Album Artist>\<Year (yyyy)>" - "$Left(<Album>,70)\$If(<Genre Category>="Classical",$If(<Disc Count>=1,$IsNull(<Sort Composer>,<Track#>" - "$Left(<Title>,70),<Track#>" - "$Split($First(<Sort Composer>)," (",1)" - "$Left(<Title>,70)),$IsNull(<Sort Composer>,<Disc-Track#>" - "$Left(<Title>,70),<Disc-Track#>" - "$Split($First(<Sort Composer>)," (",1)" - "$Left(<Title>,70))),$If(<Disc Count>=1,<Track#>" - "$Left(<Title>,50),<Disc-Track#>" - "$Left(<Title>,50))))
 ```
 
 ## Stucture Breakdown
